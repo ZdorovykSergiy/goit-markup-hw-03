@@ -17,10 +17,39 @@
   color: var(--primary-white-color);
   background: var(--accent-color);
 }
-
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .main-link {
-  font-family: Roboto, serif;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-item:not(:last-child) {
+  margin-right: 8px;
+}
+.img-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.img-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.img-item::nth-child(3n) {
+  margin: 0;
 }
 .name-prodject {
   font-family: Roboto, serif;
