@@ -10,6 +10,18 @@
   font-family: Roboto, sans-serif;
   font-weight: normal;
 }
+
+.container {
+  margin: 0 auto;
+  width: 1250px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .logo-header,
 .logo {
   font-family: "Raleway", sans-serif;
@@ -24,6 +36,11 @@
 .main-section-title {
   font-family: Roboto, serif;
   font-weight: 900;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.main-section {
+  text-align: center;
 }
 .main-section-link,
 .principle-main,
@@ -31,6 +48,17 @@
   font-family: Roboto, serif;
   font-weight: 700;
 }
+.main-section-link {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 10px 32px;
+  min-width: 200px;
+  line-height: 1.2;
+  text-decoration: none;
+  text-align: center;
+}
+
 address {
   font-style: normal;
 }
