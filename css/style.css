@@ -1,0 +1,83 @@
+:root {
+  --primary-text-color: #212121;
+  --first-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --section-one-color: #2f303a;
+  --section-two-color: #f5f4fa;
+}
+* {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+}
+.logo-header,
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.nav,
+.contack-link,
+.name-comand {
+  font-family: Roboto, serif;
+  font-weight: 500;
+}
+.main-section-title {
+  font-family: Roboto, serif;
+  font-weight: 900;
+}
+.main-section-link,
+.principle-main,
+.section-title {
+  font-family: Roboto, serif;
+  font-weight: 700;
+}
+address {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.logo,
+.nav-link,
+.name-comand,
+.principle-main,
+.section-title {
+  color: #212121;
+}
+
+.logoblue {
+  color: var(--accent-color);
+}
+.logo-header {
+  color: var(--primary-text-color);
+}
+.main-section-link {
+  background-color: var(--accent-color);
+}
+.logo,
+.main-section-link,
+.main-section-title,
+.adress-link {
+  color: var(--primary-white-color);
+}
+.contack-link,
+.principle-text,
+.text-profesional {
+  color: var(--first-text-color);
+}
+.main-section,
+footer {
+  background-color: var(--section-one-color);
+}
+.section-comand {
+  background-color: var(--section-two-color);
+}
+.nav-link:hover,
+.contack-link:hover,
+.nav-link:focus,
+.contack-link:focus {
+  color: var(--accent-color);
+}
