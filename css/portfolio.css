@@ -48,7 +48,7 @@
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.img-item::nth-child(3n) {
+.img-item:nth-child(3n) {
   margin: 0;
 }
 .name-prodject {
