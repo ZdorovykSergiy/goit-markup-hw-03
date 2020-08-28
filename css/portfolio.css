@@ -54,6 +54,8 @@
 .name-prodject {
   font-family: Roboto, serif;
   font-weight: 700;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .type-prodject {
   font-family: Roboto;
@@ -62,6 +64,6 @@
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-
+  margin-left: 24px;
   color: #757575;
 }
